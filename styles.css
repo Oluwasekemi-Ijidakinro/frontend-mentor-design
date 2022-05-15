@@ -1,0 +1,108 @@
+*{
+    color: white;
+    
+}
+
+body{
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.dan{
+    display: flex;
+}
+.container1{
+   
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.name{
+      font-size: 1.5rem;
+      margin-top: 0;
+    margin-bottom: 0;
+}
+.intro{
+    opacity: 50%;
+    font-size: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+.des{
+    margin-left: 15px;
+}
+
+.container2{
+    
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.container3{
+   
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+.container3 p{
+    color: black;
+}
+.container3 h1{
+    color: black;
+}
+.container3 h2{
+    color: black;
+}
+.container4{
+   
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.container4 p{
+    color: black;
+}
+.container4 h1{
+    color: black;
+}
+.container4 h2{
+    color: black;
+}
+.container5{
+   
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.container{
+    display: grid;
+    grid-template-areas: 'purpleCon purpleCon navyCon offwhiteCon' 'whiteCon blackCon blackCon offwhiteCon';
+    grid-gap:40px;
+}
+.container1{
+    grid-area: purpleCon;
+}
+.container2{
+    grid-area: navyCon;
+}
+.container3{
+    grid-area: offwhiteCon;
+}
+.container4{
+    grid-area: whiteCon;
+}
+.container5{
+    grid-area: blackCon;
+}
+.para{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.review{
+    opacity: 70%;
+}
+.pattern{
+    position: absolute;
+    left: 30%;
+    top: 1%;
+}
